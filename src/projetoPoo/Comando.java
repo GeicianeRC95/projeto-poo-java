@@ -2,6 +2,6 @@ package projetoPoo;
 
 public interface Comando {
 
-	void excutar(String[] args);
+	void executar(String[] args);
    
 }

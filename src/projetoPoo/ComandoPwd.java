@@ -9,7 +9,7 @@ public class ComandoPwd implements Comando {
     }
 
     @Override
-    public void executar() {
+    public void executar(String[] args) {
         Diretorio atual = gerenciador.getDiretAtual();
         System.out.println(mostrarCaminho(atual));
     }

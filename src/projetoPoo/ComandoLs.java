@@ -9,7 +9,7 @@ public class ComandoLs implements Comando {
     }
 
     @Override
-    public void executar() {
+    public void executar(String[] args) {
         Diretorio atual = gerenciador.getDiretAtual();
 
         if (atual == null) {

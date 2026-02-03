@@ -10,13 +10,13 @@ public class ComandoLs implements Comando {
 
     @Override
     public void executar(String[] args) {
-        Diretorio atual = gerenciador.getDiretAtual();
+        Diretorio pastaEmExecucao = gerenciador.getDiretAtual();
 
         if (atual == null) {
             System.out.println("Diretório atual não definido.");
             return;
         }
 
-        atual.exibir();
+        pastaEmExecucao.exibir();
     }
 }

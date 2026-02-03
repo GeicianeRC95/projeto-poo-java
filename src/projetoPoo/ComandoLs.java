@@ -12,7 +12,7 @@ public class ComandoLs implements Comando {
     public void executar(String[] args) {
         Diretorio pastaEmExecucao = gerenciador.getDiretAtual();
 
-        if (atual == null) {
+        if (pastaEmExecucao == null) {
             System.out.println("Diretório atual não definido.");
             return;
         }

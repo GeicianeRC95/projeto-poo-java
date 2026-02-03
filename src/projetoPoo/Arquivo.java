@@ -1,17 +1,20 @@
 package projetoPoo;
 
 public class Arquivo extends Componente {
-	private String conteudo;
+	private String dados;
 	
-	public Arquivo (String nome, Diretorio diretorioPai) {
-		super (nome, diretorioPai);
-		this.conteudo = "";
+	public Arquivo(String nome, Diretorio diretorioPai) {
+		super(nome, diretorioPai);
+		this.dados = "";
 	}
 	@Override
-	public void exibir () {
-		System.out.println(this.conteudo);
+	public void exibir() {
+		System.out.println(this.dados);
 	}
-	public void setConteudo (String conteudo) {
-		this.conteudo = conteudo;
+	public String getDados() {
+		return this.dados;
+	}
+	public void setDados(String dados) {
+		this.dados = dados;
 	}
 }

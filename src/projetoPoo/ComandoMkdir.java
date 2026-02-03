@@ -10,7 +10,7 @@ public class ComandoMkdir implements Comando {
 	@Override
 	public void executar(String[]args) {
 		if(args.length < 1) {
-			System.out.println("Inválido! É necessário um nome!(Comando Mdkir)");
+			System.out.println("Inválido! É necessário um nome!(Comando Mkdir)");
 			return;
 		}
 		String nomePasta = args[0];

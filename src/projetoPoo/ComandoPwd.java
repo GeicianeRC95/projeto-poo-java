@@ -10,8 +10,8 @@ public class ComandoPwd implements Comando {
 
     @Override
     public void executar(String[] args) {
-        Diretorio atual = gerenciador.getDiretAtual();
-        System.out.println(mostrarCaminho(atual));
+        Diretorio pastaEmExecucao = gerenciador.getDiretAtual();
+        System.out.println(mostrarCaminho(pastaEmExecucao));
     }
 
     private String mostrarCaminho(Componente componente) {

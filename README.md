@@ -17,7 +17,7 @@ Este projeto consiste em uma aplicação em modo texto (console) desenvolvida em
 * Execução via console/terminal
 * IDE recomendada: Eclipse ou IntelliJ IDEA
 
-## Estrutura do Projeto (Visão Geral)
+## Estrutura do Projeto
 
 * Terminal → Classe principal que inicia o sistema
 * GerenciadorComandos → Classe responsável por interpretar e despachar comandos

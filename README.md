@@ -1,6 +1,6 @@
 # Simulador de Terminal Linux em Java
 
-## Autores: Geiciane Rodrigues Carvalho e Erick Nogueira Alves
+## Autores: Erick Nogueira Alves e Geiciane Rodrigues Carvalho.
 
 ## Descrição do Projeto
 

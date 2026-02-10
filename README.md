@@ -62,4 +62,12 @@ Este projeto consiste em uma aplicação em modo texto (console) desenvolvida em
 
 ## Pilares de POO
 
+* Herança: Foi utilizado para organizar a estrutura de pastas e arquivos. As classes Arquivo e Diretório compartilham as características comuns da classe Componente, o que evita repetição de código e permite que o sistema trate ambos com a mesma base.
+  
+* Polimorfismo: Foi utilizado para permitir que o sistema trate todos os comandos de forma genérica. Logo, o terminal chama o método executar() de um comando sem precisar conhecer os detalhes internos dele. Cada classe específica sabe realizar sua própria tarefa conforme sua necessidade.
+  
+## Persistência
+
+Ao encerrar a aplicação com o comando `exit`, o sistema irá gerar automaticamente um arquivo chamado `historico_terminal.txt` contendo todos os comandos utilizados na sessão.
+
 

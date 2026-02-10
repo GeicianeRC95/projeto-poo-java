@@ -28,14 +28,23 @@ Este projeto consiste em uma aplicação em modo texto (console) desenvolvida em
 
 ## Comandos Implementados
 
-* pwd → Exibe o diretório atual
-* ls → Lista arquivos e diretórios do diretório atual
-* cd <diretório> → Navega entre diretórios
-* mkdir <nome> → Cria um novo diretório
-* touch <arquivo> → Cria um novo arquivo vazio
-* rm <arquivo/diretório> → Remove arquivo ou diretório
-* cat <arquivo> → Exibe o conteúdo de um arquivo
-* echo <texto> > <arquivo> → Escreve texto em um arquivo
-* history → Exibe o histórico de comandos
-* exit → Encerra o programa
+* `pwd` → Exibe o diretório atual
+* `ls` → Lista arquivos e diretórios do diretório atual
+* `cd <diretorio>` → Navega entre diretórios
+* `cd .. ` → Ir para o diretório pai
+* `mkdir <nome>` → Cria um novo diretório
+* `touch <arquivo>` → Cria um novo arquivo vazio
+* `rm <arquivo/diretório>` → Remove arquivo ou diretório
+* `cat <nome>` → Exibe o conteúdo de um arquivo
+* `echo <texto> > <arquivo>` → Escreve texto em um arquivo
+* `history` → Exibe o histórico de comandos
+* `exit` → Encerra o programa
+
+## Como Executar o Projeto
+
+* Extraia o projeto para sua máquina
+* Importe o projeto em uma IDE Java (Eclipse ou IntelliJ)
+* Localize a classe Terminal
+* Execute o método main
+* Digite os comandos diretamente no console
 

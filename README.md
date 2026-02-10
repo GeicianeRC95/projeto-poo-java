@@ -11,7 +11,7 @@ Este projeto consiste em uma aplicação em modo texto (console) desenvolvida em
 * Interpretar comandos digitados pelo usuário
 * Manipular arquivos e diretórios virtualmente
 * Armazenar histórico de comandos
-* Utilizar boas práticas de POO
+* Utilizar boas práticas de Programação Orientada a Objetos
 
 ## Tecnologias Utilizadas
 

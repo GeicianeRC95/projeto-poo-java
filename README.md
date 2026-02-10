@@ -1,5 +1,7 @@
 # Simulador de Terminal Linux em Java
 
+## Autores: Geiciane Rodrigues Carvalho e Erick Nogueira Alves
+
 ## Descrição do Projeto
 
 Este projeto consiste em uma aplicação em modo texto (console) desenvolvida em Java, que simula o funcionamento básico de um terminal Linux. O usuário interage digitando comandos, que são interpretados e executados pelo sistema.
@@ -57,3 +59,4 @@ Este projeto consiste em uma aplicação em modo texto (console) desenvolvida em
 `echo Olá Mundo > poo.txt`
 
 `cat poo.txt`
+

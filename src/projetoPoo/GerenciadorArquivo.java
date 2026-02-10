@@ -1,32 +1,40 @@
 package projetoPoo;
 
+import java.io.BufferedWriter; 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 public class GerenciadorArquivo {
-	public void leituraArquivo(Arquivo arquivo) {
-		if (arquivo != null) {
-			arquivo.exibir();
-		}
-	}
+    
+    public void leituraArquivo(Arquivo arquivo) {
+        if (arquivo != null) {
+            arquivo.exibir(); 
+        }
+    }
 
-	public void escreverArquivo(Arquivo arquivo, String texto) {
-		if (arquivo != null) {
-			arquivo.setDados(texto);
-		}
-	}
+    public void escreverArquivo(Arquivo arquivo, String texto) {
+        if (arquivo != null) {
+            arquivo.setDados(texto); 
+        }
+    }
 
-	public void guardar(List<String> historico) {
-		try (FileWriter fw = new FileWriter("historico_terminal.txt"); PrintWriter pw = new PrintWriter(fw)) {
-			pw.println("+_____HISTÓRICO DE COMANDOS_____+");
-			for (String linha : historico) {
-				pw.println(linha);
-			}
-			System.out.println("Tudo certo! Registro salvo com sucesso.");
-		} catch (IOException excecao) {
-			System.err.println("Opa! Algo deu errado: " + excecao.getMessage());
-		}
-	}
+    public void guardar(List<String> historico) {
+        
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("historico_terminal.txt"))) {
+            
+            bw.write("+_____HISTÓRICO DE COMANDOS_____+");
+            bw.newLine(); 
+            
+            for (String linha : historico) {
+                bw.write(linha);
+                bw.newLine();
+            }
+                     
+            System.out.println("Registro salvo com sucesso!");
+            
+        } catch (IOException excecao) {
+            System.err.println("Opa! Algo deu errado no salvamento: " + excecao.getMessage());
+        }
+    }
 }

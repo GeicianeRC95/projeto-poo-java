@@ -48,3 +48,12 @@ Este projeto consiste em uma aplicação em modo texto (console) desenvolvida em
 * Execute o método main
 * Digite os comandos diretamente no console
 
+## Exemplos de Uso
+
+`mkdir Projetos`
+
+`cd Projetos`
+
+`echo Olá Mundo > poo.txt`
+
+`cat poo.txt`
